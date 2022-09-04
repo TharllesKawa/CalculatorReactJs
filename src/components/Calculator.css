@@ -1,0 +1,55 @@
+:root {
+    --escuro--: #131f2a;
+    --escuro2--: #123a41;
+    --escuro3--: #12545f;
+    --escuro4--: #148184;
+    --escuro5--: #1ab3ae;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    min-width: 420px !important;
+}
+
+button {
+    width: 3em;
+    height: 3em;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 2em;
+    margin: 0.3em;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.wrapper {
+    background-color: #131f2a;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.escuro5 {
+    background-color: var(--escuro5--);
+    color: #fff;
+}
+
+.gray {
+    background-color: var(--escuro2--);
+    color: #fff;
+}
+
+#btnZero {
+    width: 6.6em;
+    border-radius: 1.3em;
+}
+
+.result {
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1em;
+    font-size: 3.5em;
+}

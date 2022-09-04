@@ -1,0 +1,15 @@
+:root {
+    --escuro--: #131f2a;
+    --escuro2--: #123a41;
+    --escuro3--: #12545f;
+    --escuro4--: #148184;
+    --escuro5--: #1ab3ae;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    padding: 0px 30px 30px 30px;
+}
